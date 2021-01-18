@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+h1 {
+  margin-top: -1rem;
+  margin-left: 3rem;
+  color: #4F515F;
+}
+
+h2 {
+  color: #7F7E84
+}
+
+.head-para {
+  margin-top: 2px;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+/* card section */
+
+.four {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.card {
+  width: 30%;
+  height: 13rem;
+  background-color: #fff;
+  margin-left: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 18px 0px rgba(50, 50, 50, 0.09);
+}
+
+.Supervisor {
+  border-top: 5px solid #45D2D1;
+}
+
+.team-builder {
+  margin-top: -8rem;
+  border-top: 5px solid #EC5355;
+}
+
+.calculator {
+  margin-top: -6rem;
+  border-top: 5px solid #549DF0;
+}
+
+.karma {
+  border-top: 5px solid #F4AF57;
+}
+
+img {
+  width: 50px;
+  margin-left: 10rem;
+}
+
+h3 {
+  margin-left: 1.5rem;
+  color: #48495E;
+}
+
+p {
+  margin-left: 1.5rem;
+  color: #C9C9CB;
+}
+
+@media screen and (width: 375px) {
+  .heading {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-left: 1rem;
+  }
+
+  .head-para {
+    margin-left: 1rem;
+  }
+
+  .four {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 18px 0px rgba(50, 50, 50, 0.10);
+  }
+
+  img {
+    margin-left: 7rem;
+    margin-top: -2rem;
+    width: 35px;
+  }
+}
